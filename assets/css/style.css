@@ -1028,11 +1028,12 @@ section {
 }
 
 .menu .btns {
-  margin-left: 85px;
+
   overflow: hidden;
   display: flex;
   justify-content: space-between;
   position: relative;
+  z-index: 3;
 }
 
 .menu .btn-select {
